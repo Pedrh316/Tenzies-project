@@ -31,12 +31,6 @@ export default function App(){
     }
     
     function rollRound(){
-        // let updatedDiesData = diesData.map(dieData => {
-            //     if(dieData.isActived === false){
-                //         dieData.number = randomNumber();
-                //     }
-        //     return dieData;
-        // })
         setDiesData(prevDiesData => {
             return prevDiesData.map(dieData => {
                 if(dieData.isActived === false){
